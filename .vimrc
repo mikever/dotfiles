@@ -173,6 +173,10 @@
     map <C-h> :bprev<CR>
     map <C-l> :bnext<CR>
 
+" Insert Time
+    :nnoremap <F5> "=strftime("%a %b, %d %Y")<CR>Po
+    :inoremap <F5> "<C-R>=strftime("%a %b, %d %Y")<CR>o
+
 " CtrlP
     let g:ctrlp_match_window = 'bottom,order:ttb'
     let g:ctrlp_switch_buffer = 0

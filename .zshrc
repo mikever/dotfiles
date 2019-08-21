@@ -176,4 +176,6 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 
 export PATH="/usr/local/opt/ncurses/bin:$PATH"
 export PATH="/usr/local/opt/libxml2/bin:$PATH"
+
+# Git configuration for dotfiles
 alias config='/usr/bin/git --git-dir=/Users/mveronie/.cfg/ --work-tree=/Users/mveronie'
