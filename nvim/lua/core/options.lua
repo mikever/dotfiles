@@ -3,7 +3,7 @@ vim.cmd("let g:netrw_liststyle = 3")
 local opt = vim.opt
 
 opt.number = true
-opt.relativenumber = true
+opt.relativenumber = false
 
 -- tabs & indentation
 opt.tabstop = 2 -- spaces for tabs
@@ -31,5 +31,3 @@ opt.backspace = "indent,eol,start" -- allow backspace on indent, end of line, or
 -- split windows
 opt.splitright = true -- split vertical window to the right
 opt.splitbelow = true -- split horizontal window to the bottom
-
-
