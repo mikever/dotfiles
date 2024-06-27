@@ -3,7 +3,7 @@ return {
   event = "VimEnter",
   config = function()
     local alpha = require("alpha")
-    local dashboard = require("alpha.themes.dashboard") 
+    local dashboard = require("alpha.themes.dashboard")
 
     -- Set Header
     dashboard.section.header.val = {

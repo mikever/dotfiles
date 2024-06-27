@@ -17,7 +17,7 @@ opt.wrap = false
 opt.ignorecase = true -- ignore case when searching
 opt.smartcase = true -- if you include mixed case in your search, assumes you want case-sensitive
 
-opt.cursorline = false
+opt.cursorline = true
 
 -- turn on termguicolors for some colorschemes to work
 -- (have to use a true color terminal)
