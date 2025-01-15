@@ -18,4 +18,11 @@ return {
 
     todo_comments.setup()
   end,
+  -- PERF: Fully opimised
+  -- HACK: This looks a bit funky
+  -- TODO: What else?
+  -- NOTE: adding a note
+  -- BUG: This needs fixing
+  -- FIX: This also
+  -- WARNING: ???
 }
