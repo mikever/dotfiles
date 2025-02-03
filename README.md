@@ -69,3 +69,4 @@ For HTML tags, use the character `t`.
 `gd` - go to definition of node
 `gt` - go to type definition of node
 `<leader>rn` - rename all instances of node
+`K` - display info about node, such as type info
