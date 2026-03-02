@@ -1,3 +1,4 @@
+-- ysiw or 'S' when text is highlighted, to surround text with quotes or braces (or whatever).
 return {
   "kylechui/nvim-surround",
   event = { "BufReadPre", "BufNewFile" },
