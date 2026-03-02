@@ -1,3 +1,4 @@
+-- Parses code into a syntax tree. Better syntax highlighting, indentation, folding, and text object selection based on tree structure rather than regex patterns.
 return {
   "nvim-treesitter/nvim-treesitter",
   event = { "BufReadPre", "BufNewFile" },

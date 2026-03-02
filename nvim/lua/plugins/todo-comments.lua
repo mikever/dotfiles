@@ -1,28 +1,10 @@
+-- Highlights, colorizes, and creates icons for things like:
+-- TODO: What else?
+-- FIX: This needs fixing
+-- NOTE: Don't forget
+-- HACK: At least it works
+-- PERF: fully optimized
+-- WARNING: Could be troublesome
 return {
-  "folke/todo-comments.nvim",
-  event = { "BufReadPre", "BufNewFile" },
-  dependencies = { "nvim-lua/plenary.nvim" },
-  config = function()
-    local todo_comments = require("todo-comments")
-
-    -- set keymaps
-    local keymap = vim.keymap -- for conciseness
-
-    keymap.set("n", "]t", function()
-      todo_comments.jump_next()
-    end, { desc = "Next todo comment" })
-
-    keymap.set("n", "[t", function()
-      todo_comments.jump_prev()
-    end, { desc = "Previous todo comment" })
-
-    todo_comments.setup()
-  end,
-  -- PERF: Fully opimised
-  -- HACK: This looks a bit funky
-  -- TODO: What else?
-  -- NOTE: adding a note
-  -- BUG: This needs fixing
-  -- FIX: This also
-  -- WARNING: ???
+  { "folke/todo-comments.nvim", opts = {} },
 }

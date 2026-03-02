@@ -1,3 +1,4 @@
+-- Terminal user interface for Git
 return {
   "kdheepak/lazygit.nvim",
   cmd = {
